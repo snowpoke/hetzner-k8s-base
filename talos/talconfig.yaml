@@ -20,7 +20,7 @@ cniConfig:
 
 nodes:
   - hostname: "control-plane"
-    ipAddress: "192.168.1.1"
+    ipAddress: "157.180.36.185"
     installDisk: "/dev/sda"
     machineSpec:
       secureboot: false
@@ -31,7 +31,7 @@ nodes:
           hardwareAddr: "74650588860"
         dhcp: false
         addresses:
-          - "192.168.1.1/24"
+          - "157.180.36.185/24"
         routes:
           - network: "0.0.0.0/0"
             gateway: "192.168.1.1"
